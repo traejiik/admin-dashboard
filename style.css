@@ -143,6 +143,16 @@ button {
     justify-content: space-between;
 }
 
+.textTitle {
+    color: var(--text-header);
+    font-size: 1.4rem;
+}
+
+.mainText {
+    color: var(--text-content);
+    font-weight: 300;
+}
+
 .contBtns {
     align-self: flex-end;
     display: flex;
