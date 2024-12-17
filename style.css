@@ -55,4 +55,19 @@
 .main {
     grid-column: 2 / 3;
     grid-row: 2 / 4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main > div {
+    background-color: aqua;
+    border: medium solid darkblue;
+}
+
+.projects {
+    flex: 2 1 60%;
+}
+
+.aside {
+    flex: 4 3;
 }
