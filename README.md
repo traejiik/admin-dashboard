@@ -9,3 +9,7 @@ The project should show the accumulation of skills as go through the course
 2. CSS:
     - CSS Grid
     - CSS Flexbox
+
+## The result I am trying to achieve
+
+![image](./assets/design/dashboard-project.png)
