@@ -142,21 +142,10 @@ button {
     gap: 1rem;
 }
 
-.aside > div {
-    background-color: pink;
-    border: medium solid darkred;
-}
-
 .ance,
 .trend {
     display: grid;
     grid-template-rows: 1fr 6fr;
-}
-
-.ance > div,
-.trend > div {
-    background-color: aqua;
-    border: medium solid darkblue;
 }
 
 .cont {
