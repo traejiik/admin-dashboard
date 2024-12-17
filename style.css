@@ -109,5 +109,12 @@
 }
 
 .cont {
-    padding: 0.5rem;
+    border: 0.65rem;
+}
+
+.acard,
+.tcard {
+    background-color: pink;
+    border: medium solid darkred;
+    height: calc(94% / 3);
 }
