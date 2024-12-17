@@ -41,6 +41,7 @@ body {
 .btmSec {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.5rem 3rem 0;
 }
 
@@ -67,6 +68,7 @@ body {
 
 button {
     width: 7rem;
+    height: 2.5rem;
     border: 0;
     border-radius: 4rem;
     font-weight: bold;
@@ -97,6 +99,13 @@ button {
 .mangField {
     display: flex;
     gap: 0.75rem;
+    align-items: center;
+}
+
+.mangField,
+.contField {
+    font-size: 1.3rem;
+    gap: 1.25rem;
 }
 
 .main {
@@ -220,6 +229,30 @@ button {
     border-bottom: 1px solid var(--seconday-colour);
 }
 
-.icon {
+.card .icon {
     height: 1.8rem;
+}
+
+.logo > .icon {
+    filter: invert(1);
+    height: 2.8rem;
+}
+
+.contField > .icon,
+.mangField > .icon {
+    filter: invert(1);
+    height: 1.3rem;
+}
+
+.secField > .icon,
+.user > .icon {
+    height: 2rem;
+}
+
+.tcard > .icon {
+    height: 2.5rem;
+}
+
+.btmSec > .secField .icon {
+    height: 3.2rem;
 }
