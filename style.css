@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+:root {
+    --primary-colour: #172554;
+    --seconday-colour: #475569;
+    --tertiary-colour: #eff6ff;
+    --alt-tertiary: #7c3aed;
+    --text-header: #000000;
+    --text-content: #374151;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
