@@ -71,11 +71,7 @@ button {
     flex-direction: column;
     gap: 4rem;
     background-color: var(--primary-colour);
-}
-
-.sidebar > div {
-    background-color: aqua;
-    border: medium solid darkblue;
+    color: var(--alt-text-header);
 }
 
 .controls,
@@ -83,12 +79,6 @@ button {
     display: grid;
     grid-template-rows: repeat(auto-fit, 1fr);
     gap: 0.25rem;
-}
-
-.controls > div,
-.management > div {
-    background-color: pink;
-    border: medium solid darkred;
 }
 
 .logo,
