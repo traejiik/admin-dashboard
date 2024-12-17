@@ -184,6 +184,7 @@ button {
     padding: 1rem;
 }
 
+.acard,
 .tcard {
     display: flex;
     gap: 2rem;
