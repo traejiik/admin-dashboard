@@ -26,10 +26,6 @@ body {
     grid-template-rows: 1fr 5fr;
 }
 
-.container > div {
-    padding: 1rem;
-}
-
 .header {
     grid-column: 2 / 3;
     display: grid;
@@ -37,17 +33,24 @@ body {
     padding: 0.5rem 1rem;
     align-items: center;
     background-color: var(--tertiary-colour);
-}
-
-.header > div {
-    background-color: aqua;
-    border: medium solid darkblue;
+    color: var(--text-header);
 }
 
 .topSec,
 .btmSec {
     display: flex;
     justify-content: space-between;
+    padding: 0.5rem 3rem 0;
+}
+
+.search {
+    background-color: var(--seconday-colour);
+    border: 0;
+    border-radius: 4rem;
+    height: 1.9rem;
+    width: 40rem;
+    color: var(--alt-text-header);
+    padding-left: 1rem;
 }
 
 .secField,
@@ -62,6 +65,8 @@ button {
     border: 0;
     border-radius: 4rem;
     font-weight: bold;
+    background-color: var(--primary-colour);
+    color: var(--tertiary-colour);
 }
 
 .sidebar {
@@ -72,6 +77,7 @@ button {
     gap: 4rem;
     background-color: var(--primary-colour);
     color: var(--alt-text-header);
+    padding: 1.5rem;
 }
 
 .controls,
