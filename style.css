@@ -133,6 +133,22 @@ button {
     background-color: var(--tertiary-colour);
     border-left: 0.6rem solid var(--alt-tertiary);
     box-shadow: var(--box-shadow);
+    padding: 2rem 1rem;
+}
+
+.cardCont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contBtns {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 1rem ;
 }
 
 .aside {
