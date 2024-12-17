@@ -138,23 +138,26 @@ button {
 .aside {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding: 1rem;
+    padding: 2rem 2rem 2rem 0;
     gap: 1rem;
 }
 
 .ance,
 .trend {
     display: grid;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 5fr;
 }
 
 .cont {
-    border: 0.65rem;
+    background-color: var(--tertiary-colour);
+    border-radius: 0.65rem;
+    box-shadow: var(--box-shadow);
 }
 
-.acard,
-.tcard {
-    background-color: pink;
-    border: medium solid darkred;
+.acard {
     height: calc(100% / 3);
+}
+
+.tcard {
+    height: calc(100% / 4);
 }
