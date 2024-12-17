@@ -10,10 +10,11 @@
     --primary-colour: #172554;
     --seconday-colour: #64748b;
     --tertiary-colour: #eff6ff;
-    --alt-tertiary: #7c3aed;
+    --alt-tertiary: #a78bfa;
     --text-header: #000000;
     --alt-text-header: #f8fafc;
     --text-content: #374151;
+    --box-shadow: 0 7px 12px -7px rgba(0,0,0);
 }
 
 body {
@@ -60,6 +61,10 @@ body {
     gap: 1rem
 }
 
+.usrname {
+    font-weight: bold;
+}
+
 button {
     width: 7rem;
     border: 0;
@@ -100,24 +105,14 @@ button {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: var(--seconday-colour);
-    box-shadow: inset 0 7px 9px -7px rgba(0,0,0);
-}
-
-.main > div {
-    background-color: aqua;
-    border: medium solid darkblue;
+    box-shadow: inset var(--box-shadow);
 }
 
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    padding: 1rem;
-}
-
-.projects > div {
-    background-color: pink;
-    border: medium solid darkred;
+    gap: 0.25rem;
+    padding: 2rem;
 }
 
 .projects > .title {
@@ -127,12 +122,17 @@ button {
 .title {
     font-size: 1.56rem;
     font-weight: bold;
+    color: var(--alt-text-header);
+    text-shadow: 1px 1px 2px var(--text-header);
 }
 
 .card {
-    height: 200px;
-    width: 350px;
+    height: 220px;
+    width: 390px;
     border-radius: 0.65rem;
+    background-color: var(--tertiary-colour);
+    border-left: 0.6rem solid var(--alt-tertiary);
+    box-shadow: var(--box-shadow);
 }
 
 .aside {
