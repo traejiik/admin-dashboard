@@ -55,8 +55,8 @@
 .main {
     grid-column: 2 / 3;
     grid-row: 2 / 4;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .main > div {
@@ -64,10 +64,10 @@
     border: medium solid darkblue;
 }
 
-.projects {
+/* .projects {
     flex: 2 1 60%;
 }
 
 .aside {
     flex: 4 3;
-}
+} */
