@@ -16,6 +16,10 @@
     --text-content: #374151;
 }
 
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
