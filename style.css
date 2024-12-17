@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -163,5 +164,5 @@ button {
 .tcard {
     background-color: pink;
     border: medium solid darkred;
-    height: calc(94% / 3);
+    height: calc(100% / 3);
 }
