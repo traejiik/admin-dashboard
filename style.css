@@ -185,19 +185,22 @@ button {
     padding: 1rem;
 }
 
-.acard,
-.tcard {
+.acard {
     display: flex;
     gap: 2rem;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+}
+
+.tcard {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    align-content: center;
 }
 
 .ance > .cont {
     padding: 1rem 2rem;
-}
-.acard {
-    justify-content: left;
 }
 
 .aTitle {
@@ -206,6 +209,10 @@ button {
 
 .aText {
     font-size: 0.7rem;
+}
+
+.proj {
+    font-size: 0.8rem;
 }
 
 .acard:nth-child(2) {
