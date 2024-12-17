@@ -193,6 +193,13 @@ button {
     justify-content: center;
 }
 
+.ance > .cont {
+    padding: 1rem 2rem;
+}
+.acard {
+    justify-content: left;
+}
+
 .aTitle {
     font-weight: bold;
 }
