@@ -148,7 +148,7 @@ button {
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
-    padding-right: 1rem ;
+    padding-right: 1.5rem ;
 }
 
 .aside {
