@@ -149,7 +149,8 @@ button {
 }
 
 .mainText,
-.proj {
+.proj,
+.aText {
     color: var(--text-content);
     font-weight: 300;
 }
@@ -190,4 +191,12 @@ button {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+.aTitle {
+    font-weight: bold;
+}
+
+.aText {
+    font-size: 0.8rem;
 }
