@@ -103,7 +103,7 @@ button {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
     background-color: var(--seconday-colour);
     box-shadow: inset var(--box-shadow);
 }
@@ -128,7 +128,7 @@ button {
 
 .card {
     height: 220px;
-    width: 390px;
+    width: 450px;
     border-radius: 0.65rem;
     background-color: var(--tertiary-colour);
     border-left: 0.6rem solid var(--alt-tertiary);
@@ -148,7 +148,8 @@ button {
     font-size: 1.4rem;
 }
 
-.mainText {
+.mainText,
+.proj {
     color: var(--text-content);
     font-weight: 300;
 }
@@ -178,12 +179,14 @@ button {
     background-color: var(--tertiary-colour);
     border-radius: 0.65rem;
     box-shadow: var(--box-shadow);
-}
-
-.acard {
-    height: calc(100% / 3);
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    padding: 1rem;
 }
 
 .tcard {
-    height: calc(100% / 4);
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
