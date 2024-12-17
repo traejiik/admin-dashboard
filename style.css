@@ -56,7 +56,7 @@
     grid-column: 2 / 3;
     grid-row: 2 / 4;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .main > div {
@@ -76,9 +76,13 @@
     border: medium solid darkred;
 }
 
-.title {
+.projects > .title {
     grid-column: 1 / 3;
+}
+
+.title {
     font-size: 1.56rem;
+    font-weight: bold;
 }
 
 .card {
@@ -86,10 +90,31 @@
     width: 350px;
     border-radius: 0.65rem;
 }
-/* .projects {
-    flex: 2 1 60%;
-}
 
 .aside {
-    flex: 4 3;
-} */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.aside > div {
+    background-color: pink;
+    border: medium solid darkred;
+}
+
+.ance,
+.trend {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+.ance > div,
+.trend > div {
+    background-color: aqua;
+    border: medium solid darkblue;
+}
+
+.cont {
+    padding: 0.5rem;
+}
