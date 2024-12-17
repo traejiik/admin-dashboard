@@ -15,6 +15,29 @@
     padding: 1rem;
 }
 
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0.5rem 1rem;
+}
+
+.header > div {
+    background-color: aqua;
+    border: medium solid darkblue;
+}
+
+.topSec,
+.btmSec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secField,
+.user {
+    display: flex;
+    gap: 1rem
+}
+
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 4;
