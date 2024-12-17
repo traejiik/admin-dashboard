@@ -35,7 +35,8 @@
 }
 
 .secField,
-.user {
+.user,
+.btnContainer {
     display: flex;
     gap: 1rem
 }
