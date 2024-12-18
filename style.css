@@ -136,7 +136,7 @@ button:hover {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 340px));
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     gap: 1rem;
     padding: 2rem;
 }
