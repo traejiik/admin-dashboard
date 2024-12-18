@@ -76,6 +76,13 @@ button {
     color: var(--tertiary-colour);
 }
 
+button:hover {
+    background-color: var(--alt-tertiary);
+    color: var(--primary-colour);
+    opacity: 0.75;
+    cursor: pointer;
+}
+
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
@@ -106,6 +113,15 @@ button {
 .contField {
     font-size: 1.3rem;
     gap: 1.25rem;
+    padding: 0.7rem;
+}
+
+.contField:hover,
+.mangField:hover {
+    background-color: var(--alt-tertiary);
+    color: var(--primary-colour);
+    cursor: pointer;
+    border-radius: 0.65rem;
 }
 
 .main {
@@ -143,6 +159,14 @@ button {
     border-left: 0.6rem solid var(--alt-tertiary);
     box-shadow: var(--box-shadow);
     padding: 2rem 1rem;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.projects:hover > .card:not(:hover) {
+    opacity: 0.6;
 }
 
 .cardCont {
@@ -199,6 +223,7 @@ button {
     gap: 2rem;
     align-items: center;
     justify-content: left;
+    padding: 0.5rem;
 }
 
 .tcard {
@@ -242,6 +267,11 @@ button {
 .mangField > .icon {
     filter: invert(1);
     height: 1.3rem;
+}
+
+.contField:hover > .icon,
+.mangField:hover > .icon {
+    filter: invert(0);
 }
 
 .secField > .icon,
