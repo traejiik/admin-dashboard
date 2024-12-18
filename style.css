@@ -128,15 +128,16 @@ button:hover {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     background-color: var(--seconday-colour);
     box-shadow: inset var(--box-shadow);
+    gap: 1rem;
 }
 
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 340px));
+    gap: 1rem;
     padding: 2rem;
 }
 
@@ -152,8 +153,6 @@ button:hover {
 }
 
 .card {
-    height: 220px;
-    width: 450px;
     border-radius: 0.65rem;
     background-color: var(--tertiary-colour);
     border-left: 0.6rem solid var(--alt-tertiary);
